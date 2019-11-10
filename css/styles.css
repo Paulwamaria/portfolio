@@ -55,11 +55,12 @@ section{
     position:absolute;
     top:70%;
     left:20%;
-    font-size: 100px;
+    font-size:10vh;
     transform: translate(-20%, -70%);
     color:white;
     z-index:1;
     display:none;
+    
  
 }
 .hero::after{
