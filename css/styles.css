@@ -13,8 +13,8 @@ body{
     z-index: 2;
 }
 .hamburger{
-    justify-self:end;
-width:20%;
+justify-self:end;
+
 height: auto;
 }
 .slider{
@@ -73,10 +73,102 @@ section{
     left:0;
     opacity:0.6;
 }
-/* @media screen and (min-width: 814px) {
-    hero img {
-        display:none;
-      width:50%;
-      height: auto;
+
+
+  #navbox {
+    color:black;
+
+    margin-top:146px;
+
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    width: 0;
+    height: 63.5%;
+    background-color:rgba(0,0,0,0.1);
+    transition: 400ms;
+    z-index: 1;
+    
+}
+
+
+ #btn {
+  
+
+    margin-right: 20px;
+    z-index: 1;
+ }
+
+#btn div {
+    position: relative;
+    margin-top: 10px;
+    width: 35px;
+    height: 2px;
+    background: black;
+    transition: 300ms;
+}
+
+.d1 {
+    background: #f00 !important;
+    top: 2px;
+    transform: rotate(45deg);
+}
+
+.d2 {
+    margin: 0 !important;
+    display: none;
+}
+
+.d3 {
+    background: #f00 !important;
+    top: 0;
+    margin: 0 !important;
+    transform: rotate(-45deg);
+}
+
+#navs {
+    position: relative;
+    margin-top: 55px;
+    display: block;
+    transition: 900ms;
+}
+
+#navs a {
+    position: relative;
+    right: 7%;
+    margin-top: 5px;
+    padding: 25px;
+    width: 100%;
+    display: block;
+  
+    text-decoration: none;
+    outline: none;
+    font-weight: bolder;
+    font-size:3vh;
+    transition: 400ms;
+
+}
+
+#navs a:hover {
+    background:rgba(0,0,0,0.5)
+
+}
+@media screen and (max-width: 640px) {
+    #navs a{
+     
+        font-size:2vh;
+        padding:5px;
+        right: 2%;
     }
-  } */
+    #navbox{
+        height:25%;
+    }
+  }
+
+  @media screen and (max-width: 970px) {
+    .headline{
+     
+        font-size:5vh;
+        padding:10px;
+    }
+  }
