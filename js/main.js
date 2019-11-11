@@ -3,7 +3,9 @@
 
   $(document).ready(function() {
 
-      
+      $('#abt').fadeIn(5000);
+      $('#skil').fadeIn(5000);
+      $('#conts').fadeIn(5000);
     
 
       
