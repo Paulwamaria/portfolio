@@ -168,7 +168,24 @@ section{
   @media screen and (max-width: 970px) {
     .headline{
      
-        font-size:5vh;
         padding:10px;
     }
   }
+
+  .carousel-item img{
+      width:90%;
+      height:auto;
+      
+  }
+  .proj-title{
+     background-color:rgba(0,0,0,0.75); 
+
+      width:30%;
+      margin-left:36%;
+  }
+  .details-section{
+      margin-top:100px;
+  }
+ .card{
+     margin-top:500px;
+ }
