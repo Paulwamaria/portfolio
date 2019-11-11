@@ -4,7 +4,9 @@
 <head>
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,9 +28,9 @@
                 <div id="navbox">
 
                     <navs id="navs" class="mt-0 text-dark">
-    
-    
-    
+
+
+
                         <a href="/" class="text-white ml-4">Home</a>
 
                         <a href="about.html" class="text-white ml-4">About</a>
@@ -39,28 +41,185 @@
 
                         <a href="contacts.html" class="text-white ml-4">Contacts</a>
 
-    
-    
-    
-    
+
+
+
+
                     </navs>
-    
+
                 </div>
             </nav>
             <section>
                 <div class="hero">
-             
+
+                    <div class="container">
+
+                        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center">
+                                    <img src="images/emryon_scs.png" alt="First Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="proj-title" id="emryo"><a href="#emryon">View Details</a></h5>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/instagram_scs.png" alt="Second Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="proj-title" id="insta"><a href="#inst">View Details</a></h5>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/mygallery_scs.png" alt="Third Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="proj-title" id="gallery"><a href="#gall">View Details</a></h5>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/quotes_scs.png" alt="Fourth Slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="proj-title" id="quotes"><a href="#quote">View Details</a></h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+
+
+                    </div>
+
                 </div>
             </section>
         </header>
- 
+
+        <!-- Details section -->
+        <div class="container-fluid bod">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="details-section">
+
+                        <div class="" id="emryon">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2 id="test">Emryon Developers</h2>
+                                </div>
+                                <div class="card-body">
+
+                                    Emryon Developers is a website for an imaginery company.
+                                    The application gives an account of what the company deals with ranging from web
+                                    development,
+                                    graphic design, video editing and animation in general.
+                                    The application also has a portfolio where one can see all the websites created by
+                                    Paul
+                                    Kamau.
+                                </div>
+                                <div class="card-footer">
+                                    <p><strong>Github link:</strong><a
+                                            href="https://github.com/Paulwamaria/Emryon-Developers.git">https://github.com/Paulwamaria/Emryon-Developers.git</a>
+                                    </p>
+                                    <p><strong>live link:</strong><a
+                                            href="https://paulwamaria.github.io/Emryon-Developers/index.html">https://paulwamaria.github.io/Emryon-Developers/index.html</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="details" id="inst">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Instagram</h2>
+                                </div>
+                                <div class="card-body">
+                                    A replica of the famous instagram app
+                                </div>
+                                <div class="card-footer">
+                                    <p><strong>Github link:</strong><a href="https://github.com/Paulwamaria/instagram.git">https://github.com/Paulwamaria/instagram.git</a></p>
+                                    <p><strong>live link:</strong><a href="https://instagram-clone01.herokuapp.com/">https://instagram-clone01.herokuapp.com/</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details" id="gall">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>My Gallery</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p>A web application that serves a s a personal gallery.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <p><strong>Github link:</strong><a href="https://github.com/Paulwamaria/my-gallery.git">https://github.com/Paulwamaria/my-gallery.git</a></p>
+                                    <p><strong>live link:</strong><a href="https://mgallery01.herokuapp.com/">https://mgallery01.herokuapp.com/</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details" id="quote">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Quotes</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p>A web application that allows a user to input their favorite quotes and add them
+                                        to the page list.
+                                        The app also allows the user to down vote or up vote an specific quote depending
+                                        how touched they are. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p><strong>Github link:</strong><a href="https://github.com/Paulwamaria/Quotes.git">https://github.com/Paulwamaria/Quotes.git</a></p>
+                                    <p><strong>live link:</strong><a href="https://paulwamaria.github.io/Quotes">https://paulwamaria.github.io/Quotes</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+        </div>
+
+
     </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    >
+    <script src="js/script2.js"></script>
     <script src="js/main.js"></script>
+
+
 
 </body>
 
