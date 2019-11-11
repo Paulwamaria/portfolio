@@ -3,10 +3,15 @@
 
   $(document).ready(function() {
 
-        $.fx.speeds.xslow = 100000000;
-        $('.headline').fadeIn(5000);
+      
+    
+
+      
 
   });
+
+
+
   
 
 
